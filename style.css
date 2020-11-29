@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+}
+.navbar{
+    height:70px;
+    width: 100%;
+    background:black;
+    position: fixed;
+    z-index: 2;
+}
+
+.intro{
+    height:100vh;
+   
+}
+
+.intro video{
+    height:100vh;
+    width:100%;
+    object-fit: cover;
+}
+
+.intro h1{
+    position:absolute;
+    color:white;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size:80px;
+}
+section{
+    height:100vh;
+    color:black;
+}
+section h1{
+    padding-top:300px;
+    text-align:center;
+    font-size:80px;
+}
